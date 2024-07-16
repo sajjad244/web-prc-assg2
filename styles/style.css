@@ -142,3 +142,23 @@ justify-content: center;
 gap:0.8rem;
 border: none;
 }
+/* popular-section */
+
+.popular-section{
+    margin-top: 100px;
+    gap: 53px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.popular-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-between;
+}
+.popular-content ul{
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    margin-left:2rem;
+}
